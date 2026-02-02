@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Coldfoot</title>
+    <style>
+        :root { --accent: #000000; }
+        body.dark-mode { --accent: #fff; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="grammy-header">
+            <div class="date" style="align-self: flex-end;">Mon Feb 2 2026</div>
+            <div class="h1-row">
+                <img src="https://s.yimg.com/ny/api/res/1.2/1fsV_WfgoqBST2tPvzlHCg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0xMzAwO2NmPXdlYnA-/https://media.zenfs.com/en/bang_showbiz_628/5e8d538ed233090504922e262b275deb"
+                    alt="Annotation" class="annotation-img" />
+                <h1>Let ICE Sort Em Out</h1>
+            </div>
+        </header>
+        <article>
+            <p>"This too shall pass," I repeat to myself, down $713 USD on Kalshi. I'm a paltry player on the
+                leaderboards, going toe-to-toe with the Claude Code mafia. That's alright. They say the house always
+                wins, and I'm making myself right at home until Awards Season 2k26 is said-and-done.</p>
+            <h2>The Three Billie Goats Gruff</h2>
+            <p>Going into the weekend, I discussed the Gut-Brain-Third-Eye Axis. I forgot to mention I have astigmatism.
+                Even with corrective lenses, I couldn't see the Billie B2 Bomber breaking the sound barrier. Hooah. As a
+                small consolation, none of the the sports pundits nor our friends at Gold Derby saw this one coming. If
+                they did, they churned a pretty penny on one of the longest shots of the night. Billie Eillish is now the only artist in history to receive this particular trophy three times.</p>
+                <p>Often the odds ebb with
+                insider information. This one flying completely under the radar has a nasty stench to it, especially in
+                light of Billie's recent headline-attracting vocal activism. The Grammy's
+                have always been Eurovision, but now they align more closesly with an Obama-era White House
+                Correspondant's Dinner. About a year ago, a fork in the Simulation made this path uncertain. I'm afraid
+                we are, as GRAMMY-winner Tame Impala says, back in our old ways again.
+            <p>
+
+            <p>There were two happy surprises that gave me my money's worth. With less conviction here, I only put a latte down on The Cure finally receiving some awards recognition in Best Alternative Album
+                and Lola Young stealing Pop Solo Performance from Sabrina Carpenter, another money-stealing mythical
+                creature in the GRAMMY's pantheon. I wish I had included a blurb about these calls since I'm hunting for
+                validation anywhere I can get it, so I'm including it here.</p>
+            <h2>The Gold Under The Bridge</h2>
+            <p>Song of the Year AKA the FIFA© Peace Prize was certainly handed to the Big Billie Goat on account of her
+                mouthpiece. WILDFLOWER was released as a late single for her 2024 album Hit Me Hard and Soft, which was
+                eligible for contention last Awards Cycle, where it blanked. Detractors say this was a deliberate move
+                to exploit eligibility windows. Either way, the Sirens continue claiming bodies and it makes me sick to
+                my stomachs, fam. The Golden Glitch has officially been nerfed.</p>
+            <h2>GOD DID</h2>
+            <p>The GRAMMY's theocratic regime is officially in full swing. I overcorrected on King Kendrick and the Goliath Jelly
+                Roll Holy Roll thinking The Rapture was a little farther off, so I'm definitely kicking myself under the pews. I'm also saying my Hail Mary's for Natalia Lafourcade. The category was competitive and I failed to resist the temptation of La Diabla in a Pink Dress. KAROL G's numbers didn't add up and I strayed from the light. If that wasn't a big enough blow, Kelsea Ballerini walked me straight into the honeypot for the same reason. Although my Tyler Childers conviction was ironclad, I must remember to leverage "No" share-buying in tight categories such as these, lest I end up on the Bitin' List. American Country Music, Incorporated is facing desperate times. Resorting to the off-shore Zach Top LLC slush fund may have been the most reasonable choice in retrospect.</p>
+                <p>God gives his toughest battles to his strongest soldiers. As I was bleeding out, Patron Saint Benito came saying, "sana, sana, colita de rana." By nights end, most of my wounds were healed.</p>
+            <div style="text-align: left; margin-top: 2.5em;">
+                <a href="index.html" style="
+                display: inline-block;
+                color: var(--primary-text);
+                text-transform: uppercase;
+                border-radius: 24px;
+                text-decoration: none;
+                font-size: 0.8rem;
+                font-weight: 800;
+            ">home</a>
+                <a href="#" id="back-to-top" style="
+                display: inline-block;
+                color: var(--primary-text);
+                text-transform: uppercase;
+                border-radius: 24px;
+                text-decoration: none;
+                font-size: 0.8rem;
+                font-weight: 800;
+                margin-left: 1em;
+            ">top</a>
+            </div>
+            <script>
+                document.getElementById('back-to-top').addEventListener('click', function (e) {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+
+                // Dark mode toggle via spacebar or click (for mobile/tap).
+                (function () {
+                    let isDark = false;
+                    function toggleDarkMode(e) {
+                        isDark = !isDark;
+                        document.body.classList.toggle('dark-mode', isDark);
+                        // Uncomment for persistence
+                        // localStorage.setItem("dark-mode", isDark ? "1" : "0");
+                        if (e && typeof e.preventDefault === 'function') e.preventDefault();
+                    }
+
+                    window.addEventListener('keydown', function (e) {
+                        if (
+                            e.code === 'Space' &&
+                            !(e.target && /^(input|textarea|select|button)$/i.test(e.target.tagName)) &&
+                            !e.ctrlKey && !e.metaKey && !e.altKey
+                        ) {
+                            toggleDarkMode(e);
+                        }
+                    });
+
+                    // Support dark mode toggle by tapping/clicking anywhere on the body except links/buttons/inputs.
+                    // To avoid accidental toggles on scroll or selection, only toggle on direct click/tap.
+                    document.body.addEventListener('click', function (e) {
+                        if (
+                            // Ignore link, button, input, textarea, select clicks
+                            !(e.target && /^(a|button|input|textarea|select|label)$/i.test(e.target.tagName))
+                        ) {
+                            toggleDarkMode(e);
+                        }
+                    });
+
+                    // Optional: Restore persisted dark mode on page load
+                    // isDark = localStorage.getItem("dark-mode") === "1";
+                    // document.body.classList.toggle('dark-mode', isDark);
+
+                })();
+            </script>
+        </article>
+    </div>
+</body>
+
+</html>
