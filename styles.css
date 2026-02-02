@@ -81,6 +81,7 @@ h1 {
     margin: 0;
     letter-spacing: -0.8px;
     color: var(--primary-text);
+    line-height: 0.5;
 }
 
 h2 {
