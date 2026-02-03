@@ -102,9 +102,14 @@ p {
 
 .grammy-header .h1-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* top-align image with the H1 container */
     gap: 1rem;
     margin-top: 0.5rem;
+}
+
+.grammy-header .h1-row h1 {
+    /* allow wrapping inside flex without overflow */
+    min-width: 0;
 }
 
 .annotation-img {
@@ -114,8 +119,6 @@ p {
     min-height: 42px;
     object-fit: cover;
     display: block;
-    margin-right: 0.1rem;
-    flex-shrink: 0;
     pointer-events: none;
     user-select: none;
     border-radius: 0;
@@ -135,10 +138,6 @@ p {
         height: 28px;
         min-width: 28px;
         min-height: 28px;
-    }
-
-    .grammy-header .h1-row {
-        gap: 0.7rem;
     }
 }
 
