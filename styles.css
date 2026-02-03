@@ -81,7 +81,7 @@ h1 {
     margin: 0;
     letter-spacing: -0.8px;
     color: var(--primary-text);
-    line-height: 0.5;
+    line-height: 1;
 }
 
 h2 {
@@ -90,7 +90,7 @@ h2 {
     margin-top: 2.5rem;
     letter-spacing: -0.5px;
     color: var(--primary-text);
-    line-height: 0.5;
+    line-height: 1;
 }
 
 p {
